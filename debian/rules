@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+#override_dh_auto_build:
+
+#override_dh_auto_test:
+# tests should be posrted to tap 11.x https://github.com/npm/promzard/issues/16
+#	tap test/*.js

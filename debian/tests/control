@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-promzard
+
+#Tests: tap
+#Depends: @, npm
