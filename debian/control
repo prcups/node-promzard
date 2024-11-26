@@ -5,8 +5,7 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Navaneeth Kishore <daltonfury42@disroot.org>
 Build-Depends:
  debhelper (>= 9)
- , dh-buildinfo
- , nodejs
+ , dh-sequence-nodejs
  , node-tap
  , node-read (>= 1)
 Standards-Version: 4.1.2
@@ -18,7 +17,6 @@ Package: node-promzard
 Architecture: all
 Depends:
  ${misc:Depends}
- , nodejs
  , node-read (>= 1)
 Description: Promzard provides a prompting json wizard
  A prompting wizard for building files from specialized PromZard modules.
